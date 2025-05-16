@@ -25,7 +25,6 @@ Windows:
    - Windows Task Scheduler **or**
    - Configure `inputs.conf` in Splunk to run every X minutes (recommand)
 
-3. Logs will be saved locally or sent to Splunk depending on setup.
 
 Linux:
 1. Copy the script to:  
@@ -40,35 +39,35 @@ Linux:
 ##  Important Paths Monitored
 ###customise this by organization needed
 
-  `%SystemRoot%\System32\drivers\etc\hosts`
-  `%SystemRoot%\System32\GroupPolicy`
-   C:\Windows\debug
-  "/etc/passwd"
-  "/etc/shadow"
-  "/etc/group"
-  "/etc/ssh/sshd_config"
-  "/etc/sudoers"
-  "/etc/hosts"
-  "/etc/services"
-  "/etc/resolv.conf"
-  "/etc/apt/sources.list"
-  "/etc/apt/sources.list.d"
-  "/etc/apt/trusted.gpg.d"
-  "/etc/systemd"
-  "/etc/network"
-  "/var/lib/systemd"
-  "/boot"
-  "/etc/crontab"
-  "/etc/cron.d"
-  "/etc/cron.daily"
-  "/etc/cron.hourly"
-  "/etc/cron.weekly"
-  "/etc/audit/audit.rules"
-  "/etc/selinux/config"
-  "/etc/profile"
-  "/root/.bash_history"
-  "/etc/nginx"
-- Custom paths can be configured in the script.
+ - `%SystemRoot%\System32\drivers\etc\hosts`
+ - `%SystemRoot%\System32\GroupPolicy`
+ - C:\Windows\debug
+ - "/etc/passwd"
+ - "/etc/shadow"
+ - "/etc/group"
+ - "/etc/ssh/sshd_config"
+ - "/etc/sudoers"
+ - "/etc/hosts"
+ - "/etc/services"
+ - "/etc/resolv.conf"
+ - "/etc/apt/sources.list"
+ - "/etc/apt/sources.list.d"
+ - "/etc/apt/trusted.gpg.d"
+ - "/etc/systemd"
+ - "/etc/network"
+ - "/var/lib/systemd"
+ - "/boot"
+ - "/etc/crontab"
+ - "/etc/cron.d"
+ - "/etc/cron.daily"
+ - "/etc/cron.hourly"
+ - "/etc/cron.weekly"
+ - "/etc/audit/audit.rules"
+ - "/etc/selinux/config"
+ - "/etc/profile"
+ - "/root/.bash_history"
+ - "/etc/nginx"
+ - Custom paths can be configured in the script.
 
 ##  configure splunk inputs.conf
 
