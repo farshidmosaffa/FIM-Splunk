@@ -71,27 +71,27 @@ Linux:
 
 ##  configure splunk inputs.conf
 
-[script://.\bin\Fim_integrated_to_splunk-windows.bat]
-disabled = 0
-index = windows
-interval = 60
+#[script://.\bin\Fim_integrated_to_splunk-windows.bat]
+#disabled = 0
+#index = windows
+#interval = 60
 
 [monitor://C:\Program Files\SplunkUniversalForwarder\etc\apps\FIM\fim_output.log]
-disabled = false
-index = windows
-sourcetype = fim
-interval = 120
+#disabled = false
+#index = windows
+#sourcetype = fim
+#interval = 120
 
 [script:///opt/splunkforwarder/bin/scripts/Fim_integrated_to_splunk-linux.sh]
-disabled = false
-index = linux
-interval = 60
+#disabled = false
+#index = linux
+#interval = 60
 
 [monitor:///opt/splunkforwarder/fim/fim_output.log]
-disabled = false
-index = linux
-sourcetype = fim
-interval = 120
+#disabled = false
+#index = linux
+#sourcetype = fim
+#interval = 120
 
 ##  License
 
