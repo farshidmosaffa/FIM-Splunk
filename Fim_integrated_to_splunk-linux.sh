@@ -14,9 +14,7 @@ firstRun=0
 [[ ! -s "$hashFile" ]] && firstRun=1
 
 paths=(
-  # فایل‌های پایه سیستم
   "/etc/passwd"
-#  "/bin/"
   "/etc/shadow"
   "/etc/group"
   "/etc/ssh/sshd_config"
@@ -30,12 +28,7 @@ paths=(
   "/etc/systemd"
   "/etc/network"
   "/var/lib/systemd"
-  # فولدرهای سیستمی مهم
-#  "/var/log"
-#  "/var/log/ntp.log"
   "/boot"
-
-  # مسیرهای مربوط به امنیت و اجرای زمان‌بندی
   "/etc/crontab"
   "/etc/cron.d"
   "/etc/cron.daily"
