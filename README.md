@@ -1,5 +1,5 @@
 
-# File Integrity Monitoring (FIM) integrated to Splunk
+# File Integrity Monitoring (FIM) integrated with Splunk
 
 This repository contains a lightweight **File Integrity Monitoring (FIM)** system for **Windows** and **Linux**, written in `.bat`, `.ps1`, and `.sh` formats, designed to work with **Splunk Universal Forwarder**.
 
