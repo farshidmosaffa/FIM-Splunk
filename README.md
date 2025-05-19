@@ -56,7 +56,7 @@ index = linux
 
 [monitor:///opt/splunkforwarder/fim/fim_output.log]
 disabled = false
-index = rbc_linux
+index = linux
 sourcetype = fim
 ```
 
